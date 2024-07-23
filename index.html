@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Recipe Generator</title>
   </head>
   <body>
     <div class="container">
       <header><h1>AI Recipe Generator</h1></header>
       <main>
-        <form>
+        <form id="recipe-generator">
           <input
             type="text"
             placeholder="Enter a recipe"
@@ -21,12 +22,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="content">
-          Title. Description. Preparation and cooking time. Number of servings
-          and serving size. List of ingredients with accurate measurements.
-          Step-by-step directions. Accurate nutrition information. Notes and
-          FAQ.
-        </div>
+        <div class="content" id="recipe"></div>
       </main>
       <footer>
         AI Recipe Generator was coded by

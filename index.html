@@ -7,40 +7,44 @@
     <title>AI Recipe Generator</title>
   </head>
   <body>
-    <header><h1>AI Recipe Generator</h1></header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a recipe"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Title. Description. Preparation and cooking time. Number of servings and
-        serving size. List of ingredients with accurate measurements.
-        Step-by-step directions. Accurate nutrition information. Notes and FAQ.
-      </div>
-    </main>
-    <footer>
-      AI Recipe Generator was coded by
-      <a href="https://github.com/SenayYakut" target="_blank">Senay Yakut</a> is
-      open-sourced on
-      <a
-        href="https://github.com/SenayYakut/AI-Recipe-Generator"
-        target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a
-        href="https://ai-recipe-generator-by-senayyakut.netlify.app"
-        target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header><h1>AI Recipe Generator</h1></header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a recipe"
+            autofocus
+            required
+            autocomplete="off"
+            class="enter-button"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="content">
+          Title. Description. Preparation and cooking time. Number of servings
+          and serving size. List of ingredients with accurate measurements.
+          Step-by-step directions. Accurate nutrition information. Notes and
+          FAQ.
+        </div>
+      </main>
+      <footer>
+        AI Recipe Generator was coded by
+        <a href="https://github.com/SenayYakut" target="_blank">Senay Yakut</a>
+        is open-sourced on
+        <a
+          href="https://github.com/SenayYakut/AI-Recipe-Generator"
+          target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a
+          href="https://ai-recipe-generator-by-senayyakut.netlify.app"
+          target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>

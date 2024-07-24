@@ -14,7 +14,7 @@ function generateRecipe(event) {
   let contentButton = document.querySelector(".hidden");
   contentButton.classList.remove("hidden");
 
-  contentButton.innerHTML = `<span class="generating">⏳Generating a recipe about ${inputButton.value}</span>`;
+  contentButton.innerHTML = `<span class="generating">⏳Generating a healthy ${inputButton.value} recipe</span>`;
   let prompt = `provide a healthy recipe about ${inputButton.value} `;
 
   let context =

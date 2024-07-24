@@ -12,19 +12,22 @@
     <div class="container">
       <header><h1>AI Recipe Generator</h1></header>
       <main>
-        <form id="recipe-generator">
-          <input
-            type="text"
-            placeholder="Enter a food name"
-            autofocus
-            required
-            autocomplete="off"
-            class="enter-button"
-            id="input-button"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="content" id="recipe"></div>
+        <div class="form-container">
+          <form id="recipe-generator">
+            <input
+              type="text"
+              placeholder="Enter a food name"
+              autofocus
+              required
+              autocomplete="off"
+              class="enter-button"
+              id="input-button"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Chiken, Salmon or Tofu</div>
+        </div>
+        <div class="content hidden" id="recipe"></div>
       </main>
       <footer>
         AI Recipe Generator was coded by
